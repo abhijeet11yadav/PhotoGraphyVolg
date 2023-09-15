@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Rubik+Dirt&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    overflow: scroll;
+}
+
+.exam1 {
+    width: 100%;
+    height: 3000px;
+}
+
+.exam1 h1 {
+    text-align: center;
+    font-family: monospace;
+    font-weight: 8000;
+    font-size: 45px;
+    letter-spacing: 13px;
+    color: whitesmoke;
+}
+
+.exam1 .navbar {
+    position: sticky;
+    top: 7px;
+    z-index: 110;
+    background: linear-gradient(to right, #ccfaff 0%, #33ccff 100%);
+}
+
+ul {
+    list-style: none;
+    background-color: rgba(148, 129, 129, 0.561);
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    padding-left: 77px;
+    padding-right: 77px;
+}
+
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+ul li ul.dropdown li {
+    display: block;
+    padding-left: 25px;
+    color: snow;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background: linear-gradient(to right, #ffccff 0%, #33ccff 100%);
+    position: absolute;
+    display: none;
+}
+
+ul li a:hover,
+ul li a.a1:hover {
+    color: black;
+    background: linear-gradient(to right, #4fe6f1 4%, #a6a6de 93%);
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+ul li ul.dropdown li:hover {
+    background: linear-gradient(to right, #4fe6f1 4%, #a6a6de 93%);
+    cursor: pointer;
+}
+
+/* styling compnay name from here */
+.exam1 .compney {
+    width: 100%;
+    height: 600px;
+    color: whitesmoke;
+    border: 2px solid rgba(255, 0, 0, 0);
+    display: flex;
+    flex-direction: column;
+}
+
+.exam1 .compney .box1 {
+    border: 2px solid rgba(255, 255, 0, 0);
+    width: 600px;
+    height: 400px;
+}
+
+.exam1 .compney .box1 h2 {
+    margin: 82px 0 0 86px;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 105px;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: 0.048em;
+}
+
+.exam1 .compney .box2 {
+    width: 616px;
+    height: 500px;
+    margin: -304px 0 0 686px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px 3px whitesmoke;
+}
+
+.exam1 .compney .box2 img {
+    width: 616px;
+    height: 500px;
+}
+
+/* styling box 3 from here */
+.exam1 .box3 {
+    width: 100%;
+    height: 600px;
+    color: snow;
+    overflow: hidden;
+    display: flex;
+    background: linear-gradient(to top right, #000000 50%, #ccccff 43%);
+}
+
+.exam1 .box3 h2 {
+    margin: 236px 0 0 72px;
+    margin-right: 40px;
+    font-size: 41px;
+    font-style: italic;
+    letter-spacing: 2.641px;
+}
+
+.exam1 .box3 small {
+    width: 400px;
+    margin: 342px 0 0 -522px;
+    font-size: 15px;
+    font-style: italic;
+    letter-spacing: 0.003em;
+    text-shadow: 6px 6px 4px rgba(248, 244, 244, 0.858);
+}
+
+.exam1 .box3 h3 {
+    margin: 25px 0 0 310px;
+    font-size: 41px;
+    font-style: italic;
+    letter-spacing: 0.933px;
+    color: black;
+}
+
+.exam1 .box3 small#para1 {
+    width: 400px;
+    margin: 83px 0 0 -481px;
+    font-size: 15px;
+    font-style: italic;
+    letter-spacing: 0.003em;
+    color: black;
+    text-shadow: 6px 6px 5px rgba(0, 0, 0, 0.587);
+}
+
+/* styling info */
+.exam1 .info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 578px;
+}
+
+/* styling bo4 from here */
+.exam1 .box4 {
+    color: snow;
+    width: 560px;
+    height: 500px;
+    margin: 40px 0 0 35px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.exam1 .box4 h2 {
+    margin: 23px 0 0 35px;
+    margin-right: 10px;
+    font-size: 30px;
+    font-style: italic;
+    letter-spacing: 0.016em;
+}
+
+.exam1 .box4 p {
+    margin: 12px 0 0 35px;
+    margin-right: 10px;
+    font-style: italic;
+    letter-spacing: 0.016em;
+}
+
+/* styling box 5 from here */
+.exam1 .box5 {
+    color: snow;
+    width: 560px;
+    height: 500px;
+    margin: -499px 0 0 758px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.exam1 .box5 h2 {
+    margin: 23px 0 0 35px;
+    margin-right: 10px;
+    font-size: 30px;
+    font-style: italic;
+    letter-spacing: 0.016em;
+}
+
+.exam1 .box5 p {
+    margin: 12px 0 0 35px;
+    margin-right: 10px;
+    font-style: italic;
+    letter-spacing: 0.016em;
+}
+
+/* styling info2 from here */
+.exam1 .info2 {
+    width: 100%;
+    height: 700px;
+    margin: 50px 0 0 0;
+    border: 2px solid rgb(255, 255, 255);
+    color: snow;
+    display: flex;
+    flex-direction: row;
+}
+
+.exam1 .info2 .box7 {
+    width: 400px;
+    height: 400px;
+    margin: 135px 0 0 44px;
+    border: 2px solid rgb(232, 232, 232);
+    z-index: 100;
+    overflow: hidden;
+}
+
+.exam1 .info2 .box7 img {
+    width: 395px;
+    height: 395px;
+}
+
+.exam1 .info2 .box8 {
+    width: 488px;
+    height: 368px;
+    margin: 66px 0 0 -400px;
+    border-right: 5px solid rgb(253, 253, 253);
+    border-top: 5px solid rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+.exam1 .info2 .box9 {
+    width: 786px;
+    height: 535px;
+    margin: 0 0 0 -89px;
+    border: 2px solid rgba(255, 217, 0, 0);
+}
+
+.exam1 .info2 .box9 h2 {
+    margin: 24px 0 0 -1px;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 43px;
+    font-style: italic;
+    line-height: 0.5;
+    letter-spacing: 1.695px;
+}
+
+.exam1 .info2 .box9 p {
+    justify-content: center;
+    margin: 16px 0 20px 115px;
+    font-size: 17px;
+    font-style: italic;
+    letter-spacing: 0.393px;
+}
+
+.exam1 .info3 {
+    border: 2px solid rgb(255, 255, 255);
+    width: 100%;
+    height: 700px;
+    margin: 40px 0 0 0;
+    padding-top: 46px;
+    display: flex;
+    flex-direction: row;
+}
+
+.exam1 .info3 .box10 {
+    width: 400px;
+    height: 500px;
+    border: 2px solid snow;
+    margin: 87px 0 0 939px;
+    overflow: hidden;
+}
+
+.exam1 .info3 .box10 img {
+    width: 395px;
+    height: 495px;
+}
+
+.exam1 .info3 .box11 {
+    width: 490px;
+    height: 485px;
+    margin: 30px 0 0 -466px;
+    border-top: 5px solid rgb(242, 242, 242);
+    border-left: 5px solid rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+.exam1 .info3 .box12 {
+    width: 910px;
+    height: 633px;
+    margin: -46px 0 0 -1333px;
+    color: snow;
+}
+
+.exam1 .info3 .box12 h2 {
+    margin: 12px 0 0 20px;
+    font-family: 'Rubik Dirt', cursive;
+    font-style: italic;
+    letter-spacing: 1.149px;
+    font-size: 32px;
+}
+
+.exam1 .info3 .box12 p {
+    margin: 20px 0 30px 20px;
+    font-size: 17px;
+    font-style: italic;
+    letter-spacing: 0.111px;
+}
+
+/* styling footer from here */
+.footer {
+    width: 100%;
+    height: 300px;
+    padding: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 50px;
+}
+
+.footer table {
+    border: 2px solid rgba(255, 0, 0, 0);
+    display: inline-block;
+}
+
+.footer table tr td {
+    border: 2px solid rgba(0, 255, 0, 0);
+    width: 214px;
+    height: 42px;
+    padding: 6px;
+    text-align: center;
+}
+
+.footer table tr td:hover {
+    background-color: silver;
+    color: rgb(255, 255, 255);
+}
+
+.footer table a {
+    color: snow;
+    text-decoration: none;
+}
+
+.footer table tr td:hover a {
+    color: rgb(0, 0, 0);
+}
+
+/* styling info into footer */
+.footer .infoa {
+    display: inline-block;
+    width: 100%;
+    height: 170px;
+    border: 2px solid rgba(255, 255, 0, 0);
+}
+
+.footer .infoa table tr td {
+    color: snow;
+    width: 443px;
+    height: 7px;
+    border: 2px solid rgba(0, 255, 0, 0);
+}
+
+.footer .infoa table tr td:hover {
+    color: rgb(0, 0, 0);
+}
+
+.footer .infoa table tr td {
+    color: rgb(255, 254, 254);
+}
+
+.footer table tr a {
+    color: rgb(255, 255, 255);
+}
