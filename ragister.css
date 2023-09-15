@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(ragister.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 45%;
+    height: 500px;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    background-color: rgba(245, 245, 245, 0.201);
+    box-shadow: 0px 0px 30px 0px snow;
+    margin-left: 355px;
+    margin-top: 50px;
+
+}
+.container h3{
+    text-align: center;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px 0px snow;
+    color: snow;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+.container .info{
+    width: 482px;
+    margin-left: 62px;
+    margin-right: 62px;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    /* background-color: red; */
+    background-color: rgba(5, 3, 3, 0.479);
+    color: snow;
+    border: 2px solid rgba(255, 250, 250, 0);
+}
+.container .btn{
+    border: 2px solid rgba(255, 255, 0, 0);
+    margin-top: 10px;
+}
+.container .btn button{
+    margin-left: 187px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 35px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 30px 0px snow;
+}
+.container .btn button:hover{
+    background-color: gray;
+    color: whitesmoke;
+}
+
